@@ -1,189 +1,441 @@
 <!DOCTYPE html>
 <html lang="vi">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Trần Đình Quyết</title>
-
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Trần Đình Quyết | Kỹ thuật Robot - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
 </head>
-
 <body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">TDQ</a>
+      <ul class="nav-menu">
+        <li><a href="#gioi-thieu">Giới thiệu</a></li>
+        <li><a href="#bai-tap">Bài tập</a></li>
+        <li><a href="#thu-vien">Minh chứng</a></li>
+        <li><a href="#ky-nang">Kỹ năng</a></li>
+        <li><a href="#tong-ket">Tổng kết</a></li>
+      </ul>
+      <div class="nav-toggle">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
 
-    <section class="hero">
-
-        <img src="images/0e1c6070-d6d0-475e-a45a-42c418419671.jpg" class="avatar">
-
-        <h1>TRẦN ĐÌNH QUYẾT</h1>
-
-        <p>K70 - Kỹ thuật Robot</p>
-
-        <p>Đại học Công nghệ - ĐHQGHN</p>
-
-        <p class="tagline">
-            Kỹ sư tên lửa tương lai | Người yêu thích Hàng không Vũ trụ
-        </p>
-
-    </section>
-
-
-    <section class="intro">
-
-        <h2>Giới thiệu</h2>
-
-        <p>
-            Tôi là Trần Đình Quyết, sinh viên năm nhất ngành Kỹ thuật Robot
-            tại Đại học Công nghệ - ĐHQGHN.
-
-            Tôi lựa chọn ngành học này vì đây là lĩnh vực tôi yêu thích và
-            cũng là bước đệm quan trọng để theo đuổi đam mê lâu dài trong
-            ngành hàng không vũ trụ.
-
-            Mục tiêu của tôi là trở thành kỹ sư tên lửa hoặc phi hành gia,
-            góp phần vào sự phát triển của công nghệ không gian trong tương lai.
-        </p>
-
-    </section>
-
-
-    <section>
-
-        <h2>Bài tập học phần</h2>
-
-        <div class="grid">
-
-            <a class="card"
-                href="pdf/Bai1_MayTinhVaThietBiNgoaiVi.pdf"
-                target="_blank">
-
-                <div class="icon">💻</div>
-
-                <h3>Bài 1</h3>
-
-                <p>Máy tính và thiết bị ngoại vi</p>
-
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <span class="hero-badge">Sinh viên K70</span>
+          <h1 class="hero-name">Trần Đình Quyết</h1>
+          <h2 class="hero-title">Kỹ thuật Robot</h2>
+          <p class="hero-university">Đại học Công nghệ - Đại học Quốc gia Hà Nội</p>
+          <p class="hero-tagline">"Đam mê Hàng không Vũ trụ - Hướng tới trở thành Kỹ sư Tên lửa"</p>
+          <div class="hero-cta">
+            <a href="#bai-tap" class="btn btn-primary">
+              <i class="fas fa-folder-open"></i> Xem bài tập
             </a>
-
-
-            <a class="card"
-                href="pdf/Bai2_KhaiThacDuLieuVaThongTin.pdf"
-                target="_blank">
-
-                <div class="icon">🔍</div>
-
-                <h3>Bài 2</h3>
-
-                <p>Khai thác dữ liệu và thông tin</p>
-
+            <a href="#gioi-thieu" class="btn btn-outline">
+              <i class="fas fa-user"></i> Về tôi
             </a>
-
-
-            <a class="card"
-                href="pdf/Bai3_PromptEngineering.pdf"
-                target="_blank">
-
-                <div class="icon">💬</div>
-
-                <h3>Bài 3</h3>
-
-                <p>Prompt Engineering</p>
-
-            </a>
-
-
-            <a class="card"
-                href="pdf/Bai4_HopTacTrucTuyen.pdf"
-                target="_blank">
-
-                <div class="icon">🤝</div>
-
-                <h3>Bài 4</h3>
-
-                <p>Hợp tác trực tuyến</p>
-
-            </a>
-
-
-            <a class="card"
-                href="pdf/Bai5_AIHoTroSangTaoNoiDung.pdf"
-                target="_blank">
-
-                <div class="icon">🤖</div>
-
-                <h3>Bài 5</h3>
-
-                <p>AI hỗ trợ sáng tạo nội dung</p>
-
-            </a>
-
-
-            <a class="card"
-                href="pdf/Bai6_AICoTrachNhiem.pdf"
-                target="_blank">
-
-                <div class="icon">⚖️</div>
-
-                <h3>Bài 6</h3>
-
-                <p>AI có trách nhiệm</p>
-
-            </a>
-
+          </div>
         </div>
+        <div class="hero-image">
+          <div class="avatar-wrapper">
+            <img src="0e1c6070-d6d0-475e-a45a-42c418419671.jpg" alt="Trần Đình Quyết" class="avatar" />
+            <div class="avatar-ring"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-decoration">
+      <div class="floating-element element-1"></div>
+      <div class="floating-element element-2"></div>
+      <div class="floating-element element-3"></div>
+    </div>
+  </section>
 
-    </section>
+  <!-- Giới thiệu Section -->
+  <section id="gioi-thieu" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Thông tin cá nhân</span>
+        <h2 class="section-title">Giới thiệu</h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-card">
+          <div class="about-icon">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <h3>Học vấn</h3>
+          <p>Sinh viên năm nhất ngành Kỹ thuật Robot tại Trường Đại học Công nghệ - ĐHQGHN, khóa K70.</p>
+        </div>
+        <div class="about-card">
+          <div class="about-icon">
+            <i class="fas fa-rocket"></i>
+          </div>
+          <h3>Định hướng</h3>
+          <p>Hướng tới trở thành Kỹ sư Tên lửa hoặc Phi hành gia trong lĩnh vực Hàng không Vũ trụ.</p>
+        </div>
+        <div class="about-card">
+          <div class="about-icon">
+            <i class="fas fa-robot"></i>
+          </div>
+          <h3>Chuyên môn</h3>
+          <p>Robot, Tự động hóa, Công nghệ Không gian và Trí tuệ nhân tạo ứng dụng.</p>
+        </div>
+      </div>
+      <div class="about-description">
+        <p>Tôi lựa chọn ngành Kỹ thuật Robot vì đây là lĩnh vực tôi yêu thích và cũng là bước đệm quan trọng để theo đuổi đam mê lâu dài trong ngành hàng không vũ trụ. Kiến thức về robot, điều khiển và tự động hóa sẽ giúp tôi xây dựng nền tảng kỹ thuật cần thiết cho các dự án không gian trong tương lai.</p>
+        <p>Tôi đặc biệt quan tâm đến các lĩnh vực như Robot, Hàng không Vũ trụ, Công nghệ Không gian và Tự động hóa – những nền tảng then chốt cho sự nghiệp mà tôi đang hướng tới.</p>
+      </div>
+    </div>
+  </section>
 
+  <!-- Bài tập Section -->
+  <section id="bai-tap" class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Học phần Kỹ năng số</span>
+        <h2 class="section-title">Bài tập học phần</h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="tasks-grid">
+        <div class="task-card" onclick="openPdf('pdf/Bai1.pdf')">
+          <div class="task-number">01</div>
+          <div class="task-icon">
+            <i class="fas fa-laptop"></i>
+          </div>
+          <h3 class="task-title">Máy tính và thiết bị ngoại vi</h3>
+          <p class="task-desc">Tìm hiểu về cấu trúc, chức năng và các thành phần của hệ thống máy tính.</p>
+          <span class="task-link">Xem chi tiết <i class="fas fa-arrow-right"></i></span>
+        </div>
+        <div class="task-card" onclick="openPdf('pdf/Bai2.pdf')">
+          <div class="task-number">02</div>
+          <div class="task-icon">
+            <i class="fas fa-search"></i>
+          </div>
+          <h3 class="task-title">Khai thác dữ liệu và thông tin</h3>
+          <p class="task-desc">Phương pháp tìm kiếm, đánh giá và khai thác thông tin hiệu quả trên Internet.</p>
+          <span class="task-link">Xem chi tiết <i class="fas fa-arrow-right"></i></span>
+        </div>
+        <div class="task-card" onclick="openPdf('pdf/Bai3.pdf')">
+          <div class="task-number">03</div>
+          <div class="task-icon">
+            <i class="fas fa-comments"></i>
+          </div>
+          <h3 class="task-title">Prompt Engineering</h3>
+          <p class="task-desc">Kỹ thuật viết prompt hiệu quả để tối ưu hóa tương tác với AI.</p>
+          <span class="task-link">Xem chi tiết <i class="fas fa-arrow-right"></i></span>
+        </div>
+        <div class="task-card" onclick="openPdf('pdf/Bai4.pdf')">
+          <div class="task-number">04</div>
+          <div class="task-icon">
+            <i class="fas fa-handshake"></i>
+          </div>
+          <h3 class="task-title">Hợp tác trực tuyến</h3>
+          <p class="task-desc">Công cụ và phương pháp làm việc nhóm hiệu quả trong môi trường số.</p>
+          <span class="task-link">Xem chi tiết <i class="fas fa-arrow-right"></i></span>
+        </div>
+        <div class="task-card" onclick="openPdf('pdf/Bai5.pdf')">
+          <div class="task-number">05</div>
+          <div class="task-icon">
+            <i class="fas fa-paint-brush"></i>
+          </div>
+          <h3 class="task-title">AI hỗ trợ sáng tạo nội dung</h3>
+          <p class="task-desc">Ứng dụng trí tuệ nhân tạo trong việc tạo và phát triển nội dung số.</p>
+          <span class="task-link">Xem chi tiết <i class="fas fa-arrow-right"></i></span>
+        </div>
+        <div class="task-card" onclick="openPdf('pdf/Bai6.pdf')">
+          <div class="task-number">06</div>
+          <div class="task-icon">
+            <i class="fas fa-shield-alt"></i>
+          </div>
+          <h3 class="task-title">AI có trách nhiệm</h3>
+          <p class="task-desc">Đạo đức và trách nhiệm trong việc sử dụng trí tuệ nhân tạo.</p>
+          <span class="task-link">Xem chi tiết <i class="fas fa-arrow-right"></i></span>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <section class="skills">
+  <!-- Thư viện minh chứng Section -->
+  <section id="thu-vien" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Hình ảnh thực tế</span>
+        <h2 class="section-title">Thư viện minh chứng</h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <div class="gallery-image">
+            <img src="https://via.placeholder.com/600x400?text=Minh+chứng+Bài+1" alt="Minh chứng bài tập 1" />
+            <div class="gallery-overlay">
+              <i class="fas fa-search-plus"></i>
+            </div>
+          </div>
+          <div class="gallery-info">
+            <h4>Bài tập 1</h4>
+            <p>Máy tính và thiết bị ngoại vi</p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-image">
+            <img src="https://via.placeholder.com/600x400?text=Minh+chứng+Bài+2" alt="Minh chứng bài tập 2" />
+            <div class="gallery-overlay">
+              <i class="fas fa-search-plus"></i>
+            </div>
+          </div>
+          <div class="gallery-info">
+            <h4>Bài tập 2</h4>
+            <p>Khai thác dữ liệu và thông tin</p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-image">
+            <img src="https://via.placeholder.com/600x400?text=Minh+chứng+Bài+3" alt="Minh chứng bài tập 3" />
+            <div class="gallery-overlay">
+              <i class="fas fa-search-plus"></i>
+            </div>
+          </div>
+          <div class="gallery-info">
+            <h4>Bài tập 3</h4>
+            <p>Prompt Engineering</p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-image">
+            <img src="https://via.placeholder.com/600x400?text=Minh+chứng+Bài+4" alt="Minh chứng bài tập 4" />
+            <div class="gallery-overlay">
+              <i class="fas fa-search-plus"></i>
+            </div>
+          </div>
+          <div class="gallery-info">
+            <h4>Bài tập 4</h4>
+            <p>Hợp tác trực tuyến</p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-image">
+            <img src="https://via.placeholder.com/600x400?text=Minh+chứng+Bài+5" alt="Minh chứng bài tập 5" />
+            <div class="gallery-overlay">
+              <i class="fas fa-search-plus"></i>
+            </div>
+          </div>
+          <div class="gallery-info">
+            <h4>Bài tập 5</h4>
+            <p>AI hỗ trợ sáng tạo nội dung</p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-image">
+            <img src="https://via.placeholder.com/600x400?text=Minh+chứng+Bài+6" alt="Minh chứng bài tập 6" />
+            <div class="gallery-overlay">
+              <i class="fas fa-search-plus"></i>
+            </div>
+          </div>
+          <div class="gallery-info">
+            <h4>Bài tập 6</h4>
+            <p>AI có trách nhiệm</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-        <h2>Kỹ năng đạt được</h2>
+  <!-- Kỹ năng Section -->
+  <section id="ky-nang" class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Năng lực phát triển</span>
+        <h2 class="section-title">Kỹ năng đạt được</h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-item">
+          <div class="skill-icon">
+            <i class="fas fa-database"></i>
+          </div>
+          <div class="skill-content">
+            <h4>Quản lý dữ liệu số</h4>
+            <p>Tổ chức, lưu trữ và quản lý dữ liệu hiệu quả trên nền tảng số</p>
+          </div>
+          <div class="skill-level">
+            <div class="skill-bar" style="width: 85%"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-icon">
+            <i class="fas fa-search"></i>
+          </div>
+          <div class="skill-content">
+            <h4>Tìm kiếm và đánh giá thông tin</h4>
+            <p>Kỹ năng tìm kiếm nâng cao và đánh giá độ tin cậy của thông tin</p>
+          </div>
+          <div class="skill-level">
+            <div class="skill-bar" style="width: 90%"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-icon">
+            <i class="fas fa-terminal"></i>
+          </div>
+          <div class="skill-content">
+            <h4>Viết Prompt hiệu quả</h4>
+            <p>Thiết kế prompt tối ưu để tương tác hiệu quả với các mô hình AI</p>
+          </div>
+          <div class="skill-level">
+            <div class="skill-bar" style="width: 80%"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-icon">
+            <i class="fas fa-users"></i>
+          </div>
+          <div class="skill-content">
+            <h4>Làm việc nhóm trực tuyến</h4>
+            <p>Sử dụng thành thạo các công cụ cộng tác và quản lý dự án trực tuyến</p>
+          </div>
+          <div class="skill-level">
+            <div class="skill-bar" style="width: 88%"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-icon">
+            <i class="fas fa-brain"></i>
+          </div>
+          <div class="skill-content">
+            <h4>Ứng dụng AI trong học tập</h4>
+            <p>Tích hợp công cụ AI để nâng cao hiệu quả học tập và nghiên cứu</p>
+          </div>
+          <div class="skill-level">
+            <div class="skill-bar" style="width: 82%"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-icon">
+            <i class="fas fa-balance-scale"></i>
+          </div>
+          <div class="skill-content">
+            <h4>Đạo đức sử dụng AI</h4>
+            <p>Hiểu và áp dụng các nguyên tắc đạo đức trong sử dụng trí tuệ nhân tạo</p>
+          </div>
+          <div class="skill-level">
+            <div class="skill-bar" style="width: 87%"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-        <ul>
+  <!-- Tổng kết Section -->
+  <section id="tong-ket" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Nhìn lại hành trình</span>
+        <h2 class="section-title">Tổng kết học phần</h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="summary-content">
+        <div class="summary-card">
+          <div class="summary-icon">
+            <i class="fas fa-lightbulb"></i>
+          </div>
+          <p>Qua học phần này, tôi đã tích lũy được nhiều kiến thức và kỹ năng quan trọng trong hành trình phát triển bản thân. Tôi nhận ra rằng, kỹ năng số không chỉ là công cụ hỗ trợ học tập mà còn là nền tảng thiết yếu để thích nghi với môi trường công nghệ hiện đại.</p>
+        </div>
+        <div class="summary-card">
+          <div class="summary-icon">
+            <i class="fas fa-star"></i>
+          </div>
+          <p>Một trong những điểm nhấn của học phần là việc tiếp cận và ứng dụng trí tuệ nhân tạo một cách có trách nhiệm. Tôi đã học được cách viết prompt hiệu quả để tận dụng AI như một trợ lý học tập thông minh, từ đó thúc đẩy tư duy sáng tạo và giải quyết vấn đề nhanh chóng hơn.</p>
+        </div>
+        <div class="summary-card">
+          <div class="summary-icon">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <p>Việc học cách khai thác dữ liệu hiệu quả, sử dụng các công cụ tìm kiếm nâng cao và tổ chức thông tin đã giúp tôi nâng cao năng suất học tập đáng kể. Đồng thời, tôi cũng hiểu rõ hơn về đạo đức khi sử dụng AI – điều cần thiết trong kỷ nguyên số.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-            <li>Quản lý dữ liệu số</li>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <h3>Trần Đình Quyết</h3>
+          <p>Kỹ thuật Robot - UET VNU</p>
+        </div>
+        <div class="footer-contact">
+          <h4>Liên hệ</h4>
+          <ul>
+            <li><i class="fas fa-envelope"></i> <a href="mailto:quyet@example.com">quyet@example.com</a></li>
+            <li><i class="fas fa-phone"></i> <a href="tel:+84912345678">+84 912 345 678</a></li>
+            <li><i class="fas fa-map-marker-alt"></i> Hà Nội, Việt Nam</li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h4>Kết nối</h4>
+          <div class="social-links">
+            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Trần Đình Quyết. Tất cả quyền được bảo lưu.</p>
+      </div>
+    </div>
+  </footer>
 
-            <li>Tìm kiếm và đánh giá thông tin</li>
+  <script>
+    // Function to open PDF files
+    function openPdf(pdfPath) {
+      window.open(pdfPath, '_blank');
+    }
 
-            <li>Prompt Engineering</li>
+    // Mobile navigation toggle
+    const navToggle = document.querySelector('.nav-toggle');
+    const navMenu = document.querySelector('.nav-menu');
+    
+    navToggle.addEventListener('click', () => {
+      navMenu.classList.toggle('active');
+    });
 
-            <li>Làm việc nhóm trực tuyến</li>
+    // Smooth scrolling for navigation links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+          // Close mobile menu if open
+          navMenu.classList.remove('active');
+        }
+      });
+    });
 
-            <li>Ứng dụng AI trong học tập</li>
-
-            <li>Đạo đức sử dụng AI</li>
-
-        </ul>
-
-    </section>
-
-
-    <section class="intro">
-
-        <h2>Tổng kết</h2>
-
-        <p>
-            Thông qua học phần này tôi đã phát triển được nhiều kỹ năng số,
-            kỹ năng khai thác thông tin, kỹ năng làm việc nhóm và sử dụng AI
-            một cách hiệu quả, có trách nhiệm.
-
-            Đây là nền tảng quan trọng giúp tôi tiếp tục học tập và theo đuổi
-            mục tiêu trở thành kỹ sư trong lĩnh vực hàng không vũ trụ.
-        </p>
-
-    </section>
-
-
-    <footer>
-
-        <p>Trần Đình Quyết</p>
-
-        <p>K70 - Kỹ thuật Robot</p>
-
-        <p>Đại học Công nghệ - ĐHQGHN</p>
-
-    </footer>
-
+    // Navbar scroll effect
+    window.addEventListener('scroll', () => {
+      const navbar = document.querySelector('.navbar');
+      if (window.scrollY > 50) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+    });
+  </script>
 </body>
-
 </html>
